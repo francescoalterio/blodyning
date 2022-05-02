@@ -44,7 +44,9 @@ const Nav = () => {
         span {
           font-size: 30px;
           font-weight: 700;
-          color: rgb(34, 34, 34);
+          background: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
         }
 
         .container-links-and-theme {
@@ -52,7 +54,7 @@ const Nav = () => {
         }
 
         .btn-theme {
-          color: gray;
+          color: black;
           background: none;
           font-size: 17px;
           border: none;

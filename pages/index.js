@@ -13,19 +13,65 @@ export default function Home() {
       </Head>
 
       <header>
+        <h1>Plataforma de cursos gratuitos sobre desarrollo web y mobil</h1>
+        <h2>
+          Aprende desarrollo web y mobil utilizando el lenguaje de programación
+          Javascript
+        </h2>
         <div>
-          <h1>Blodyning</h1>
-          <h2>Platform for free courses on web and mobile development</h2>
-        </div>
-        <div>
-          <Image />
+          <button className="btn btn-cursos">Cursos</button>
+          <button className="btn btn-repositorios">Repositorios</button>
         </div>
       </header>
 
       <main></main>
 
       <footer></footer>
-      <style jsx>{``}</style>
+      <style jsx>{`
+        header {
+          width: 100%;
+          height: 400px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          align-items: center;
+          text-align: center;
+          padding: 80px 100px 0px 100px;
+        }
+
+        h1 {
+          font-size: 60px;
+          color: #212121;
+          line-height: 70px;
+        }
+
+        h2 {
+          color: #5e5e5e;
+          font-weight: 500;
+        }
+
+        .btn {
+          border: none;
+          border-radius: 7px;
+          padding: 10px 56px;
+          font-size: 16px;
+          font-weight: 400;
+          cursor: pointer;
+          margin: 0 20px;
+        }
+
+        .btn-cursos {
+          background-color: rgb(0, 112, 243);
+          color: white;
+          box-shadow: rgba(0, 118, 255, 0.39) 0px 4px 14px 0px;
+        }
+
+        .btn-repositorios {
+          box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 14px 0px;
+          background-color: white;
+          color: rgb(105, 105, 105);
+        }
+      `}</style>
     </>
   );
 }
