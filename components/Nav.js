@@ -54,7 +54,6 @@ const Nav = () => {
         }
 
         .btn-theme {
-          color: black;
           background: none;
           font-size: 17px;
           border: none;
@@ -63,11 +62,12 @@ const Nav = () => {
           display: flex;
           align-items: center;
           cursor: pointer;
+          color: #5e5e5e;
         }
 
         a {
           text-decoration: none;
-          color: rgb(34, 34, 34);
+          color: #5e5e5e;
           margin: 0 20px;
           font-size: 17px;
           font-weight: 600;
